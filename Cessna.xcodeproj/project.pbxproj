@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D6EB794282EAD5400EDBB45 /* newfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6EB793282EAD5400EDBB45 /* newfile.swift */; };
 		7DB25B8E282E649B0054589D /* CessnaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB25B8D282E649B0054589D /* CessnaApp.swift */; };
 		7DB25B90282E649B0054589D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB25B8F282E649B0054589D /* MainView.swift */; };
 		7DB25B92282E649E0054589D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB25B91282E649E0054589D /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		7D6EB792282E9A7200EDBB45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7D6EB793282EAD5400EDBB45 /* newfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newfile.swift; sourceTree = "<group>"; };
 		7DB25B8A282E649B0054589D /* Cessna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cessna.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DB25B8D282E649B0054589D /* CessnaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CessnaApp.swift; sourceTree = "<group>"; };
 		7DB25B8F282E649B0054589D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 		7DB25BA3282E70790054589D /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				7D6EB793282EAD5400EDBB45 /* newfile.swift */,
 				7DB25BA6282E71330054589D /* Parsing.swift */,
 			);
 			path = Services;
@@ -200,6 +203,7 @@
 				7DB25B90282E649B0054589D /* MainView.swift in Sources */,
 				7DB25BAB282E817C0054589D /* CessnaView.swift in Sources */,
 				7DB25BA5282E70C40054589D /* CessnaModel.swift in Sources */,
+				7D6EB794282EAD5400EDBB45 /* newfile.swift in Sources */,
 				7DB25B8E282E649B0054589D /* CessnaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
