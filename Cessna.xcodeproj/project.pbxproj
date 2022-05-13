@@ -8,17 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		7DB25B8E282E649B0054589D /* CessnaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB25B8D282E649B0054589D /* CessnaApp.swift */; };
-		7DB25B90282E649B0054589D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB25B8F282E649B0054589D /* ContentView.swift */; };
+		7DB25B90282E649B0054589D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB25B8F282E649B0054589D /* MainView.swift */; };
 		7DB25B92282E649E0054589D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB25B91282E649E0054589D /* Assets.xcassets */; };
 		7DB25B95282E649E0054589D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB25B94282E649E0054589D /* Preview Assets.xcassets */; };
+		7DB25BA0282E67500054589D /* CessnaData.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DB25B9F282E67500054589D /* CessnaData.json */; };
+		7DB25BA2282E6CDB0054589D /* Cessna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB25BA1282E6CDB0054589D /* Cessna.swift */; };
+		7DB25BA5282E70C40054589D /* CessnaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB25BA4282E70C40054589D /* CessnaModel.swift */; };
+		7DB25BA7282E71330054589D /* Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB25BA6282E71330054589D /* Parsing.swift */; };
+		7DB25BAB282E817C0054589D /* CessnaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB25BAA282E817C0054589D /* CessnaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D6EB792282E9A7200EDBB45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7DB25B8A282E649B0054589D /* Cessna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cessna.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DB25B8D282E649B0054589D /* CessnaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CessnaApp.swift; sourceTree = "<group>"; };
-		7DB25B8F282E649B0054589D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7DB25B8F282E649B0054589D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		7DB25B91282E649E0054589D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DB25B94282E649E0054589D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7DB25B9F282E67500054589D /* CessnaData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CessnaData.json; sourceTree = "<group>"; };
+		7DB25BA1282E6CDB0054589D /* Cessna.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cessna.swift; sourceTree = "<group>"; };
+		7DB25BA4282E70C40054589D /* CessnaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CessnaModel.swift; sourceTree = "<group>"; };
+		7DB25BA6282E71330054589D /* Parsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parsing.swift; sourceTree = "<group>"; };
+		7DB25BAA282E817C0054589D /* CessnaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CessnaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +62,13 @@
 		7DB25B8C282E649B0054589D /* Cessna */ = {
 			isa = PBXGroup;
 			children = (
+				7D6EB792282E9A7200EDBB45 /* Info.plist */,
 				7DB25B8D282E649B0054589D /* CessnaApp.swift */,
-				7DB25B8F282E649B0054589D /* ContentView.swift */,
+				7DB25B9E282E65EA0054589D /* Views */,
+				7DB25B9D282E65E00054589D /* ViewModels */,
+				7DB25B9C282E65D70054589D /* Models */,
+				7DB25B9B282E65CC0054589D /* Data */,
+				7DB25BA3282E70790054589D /* Services */,
 				7DB25B91282E649E0054589D /* Assets.xcassets */,
 				7DB25B93282E649E0054589D /* Preview Content */,
 			);
@@ -65,6 +81,47 @@
 				7DB25B94282E649E0054589D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7DB25B9B282E65CC0054589D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7DB25B9F282E67500054589D /* CessnaData.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7DB25B9C282E65D70054589D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7DB25BA1282E6CDB0054589D /* Cessna.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7DB25B9D282E65E00054589D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7DB25BA4282E70C40054589D /* CessnaModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7DB25B9E282E65EA0054589D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7DB25B8F282E649B0054589D /* MainView.swift */,
+				7DB25BAA282E817C0054589D /* CessnaView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7DB25BA3282E70790054589D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7DB25BA6282E71330054589D /* Parsing.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DB25B95282E649E0054589D /* Preview Assets.xcassets in Resources */,
+				7DB25BA0282E67500054589D /* CessnaData.json in Resources */,
 				7DB25B92282E649E0054589D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +195,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DB25B90282E649B0054589D /* ContentView.swift in Sources */,
+				7DB25BA2282E6CDB0054589D /* Cessna.swift in Sources */,
+				7DB25BA7282E71330054589D /* Parsing.swift in Sources */,
+				7DB25B90282E649B0054589D /* MainView.swift in Sources */,
+				7DB25BAB282E817C0054589D /* CessnaView.swift in Sources */,
+				7DB25BA5282E70C40054589D /* CessnaModel.swift in Sources */,
 				7DB25B8E282E649B0054589D /* CessnaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +332,9 @@
 				DEVELOPMENT_TEAM = KLBNXW7JUJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cessna/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -280,7 +342,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fr172e.Cessna;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr172e.Recipe-List-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -299,9 +361,9 @@
 				DEVELOPMENT_TEAM = KLBNXW7JUJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cessna/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,7 +371,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fr172e.Cessna;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr172e.Recipe-List-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

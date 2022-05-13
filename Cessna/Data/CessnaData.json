@@ -1,0 +1,52 @@
+[
+    {
+"name":"Cessna Comet",
+"image":"comet",
+"firstFlight":1917,
+"Characteristics":["Crew: 1 pilot","Capacity: 1 passenger","Powerplant: 1 × Anzani , 60 hp (45 kW)"],
+"Description":"The Cessna Comet was an early aircraft designed and built by Clyde Cessna in the United States in 1917. It was a conventionally configured wire-braced monoplane with a semi-enclosed cabin that seated one passenger in addition to the pilot. On 5 July 1917, Cessna used it to set a national airspeed record of 124.6 mph (200.5 km/h) and national distance record of 76 miles (122 km) flying from Blackwell, Oklahoma, to Wichita, Kansas."
+        
+    },
+    {
+"name":"Cessna Model A",
+"image":"cessnaA",
+"firstFlight":1927,
+"Characteristics":["Crew: 2 pilots","Capacity: 2 passengers","Powerplant: 1 × Anzani 10 10-cylinder radial, 120 hp (89 kW)"],
+"Description":"The Cessna Model A was a 1920s American high-wing four-seat tourer built by the Cessna Aircraft Company, the first in a long line of high-wing single-engined monoplanes.The first Cessna design built in any numbers was the Cessna Model A, a four-seater with a mixed wood and steel-tube construction with fabric covering. The aircraft was built in a number of variants fitted with different engines.The prototype (Model AC) first flew in 1927 and the first production aircraft appeared in the following year."
+    },
+    {
+        "name":"Cessna CG-2",
+        "image":"cg2",
+        "firstFlight":1930,
+        "Characteristics":["Crew: one pilot","Capacity: 0 passengers","Powerplant: no powerplant"],
+        "Description":"Cessna Aircraft was suffering in the depression and downturn in the economy following the Wall Street crash. The company designed a simple primary glider (the Model CG-2) in an attempt to keep the factory going. Cessna marketed the aircraft for sale in a catalog. The glider did go into limited production before the company ceased operation for a number of years."
+    },
+    {
+        "name":"Cessna CH-1 Skyhook",
+        "image":"ch1",
+        "firstFlight":1953,
+        "Characteristics":["Crew: One pilot","Capacity: 3 passenger"," 1 × Continental FSO-526-A air-cooled six-cylinder horizontally-opposed engine, 270 hp (200 kW)"],
+        "Description":"The Cessna CH-1 Skyhook is the only helicopter ever built by the Cessna Aircraft Company. It was the first helicopter to land on the summit of Pike's Peak and the last piston-engined helicopter to set the helicopter altitude record. The CH-1 had a single, two-bladed main rotor, and a front-mounted reciprocating engine which gave the aircraft a stable center of gravity (CG). Its semi-monocoque airframe greatly resembles its light airplane siblings built by Cessna. The CH-1 was named Skyhook for the civil market, similar to the marketing names used in the Cessna single engine airplane line, such as Skyhawk, Skylane and Skywagon. The United States Army designated the CH-1C as the YH-41 Seneca. While the CH-1 achieved several helicopter firsts and set a world record, it never became a commercial or military success."
+    },
+    {
+        "name":"Cessna CR-3",
+        "image":"cr3",
+        "firstFlight":1933,
+        "Characteristics":["Crew: 1 pilot","Capacity: 0 passenger","1 × Warner Super Scarab Radial, 145 hp (108 kW)"],
+        "Description":"The Cessna CR-3 was a follow on racing aircraft to the Cessna CR-2 that raced in the 1932 National Air Races. The CR-3 was a mid-wing radial engined taildragger racer with manual retractable landing gear and a tail skid. The propeller was from a clipped wing Monocoupe racer #14. The tail surface was designed to be neutral, without downforce in flight. The elevators experienced significant vibration in test flights without the wing root fairings installed.En route to an airshow in August 1933, the CR-3 experienced a failure of both the tail skid and a landing gear weld that would not allow the gear to lock. Livingston bailed out over Columbus, Ohio and the CR-3 was destroyed in its ensuing crash."
+    },
+    {
+        "name":"Cessna CW-6",
+        "image":"cw6",
+        "firstFlight":1928,
+        "Characteristics":["Crew: 1 pilot","Capacity: 5 passenger","1 × Wright J-6 Whirlwind radial engine, 300 hp (220 kW)"],
+        "Description":"Following development of the four-seat Model A the company designed a six-seat aircraft, the Model CW-6. The aircraft first flew in November 1928, powered by a 220 hp (164 kW) Wright Whirlwind J-5 radial engine. The aircraft was displayed at the 1929 Auto Show in Wichita, Kansas. A scaled-down four-seat version, the Cessna DC-6, was also developed."
+    },
+    {
+        "name":"Cessna 140",
+        "image":"c140",
+        "firstFlight":1946,
+        "Characteristics":["Crew: 1 pilot","Capacity: 1 passenger","1 × Continental C-85 four cylinder, four stroke, horizontally opposed aircraft engine, 85 hp (63 kW)"],
+        "Description":"The Cessna 120, 140, and 140A, are single-engine, two-seat, conventional landing gear (tailwheel), light general aviation aircraft that were first produced in 1946, immediately following the end of World War II. Production ended in 1951, and was succeeded in 1959 by the Cessna 150, a similar two-seat trainer which introduced tricycle gear. Combined production of the 120, 140, and 140A was 7,664 units in five years."
+    }
+]
